@@ -35,6 +35,7 @@ html {
     background: var(--color3);
     cursor: pointer;
     transition: all .5s;
+    border-radius: 8px;
 }
 
 .btn1 {border-radius: 2px;}
