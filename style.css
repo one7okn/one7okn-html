@@ -31,7 +31,7 @@ html {
 
 .btn {
     border: 0;
-    padding: .5rem 1rem;
+    padding: 1rem 2rem;
     background: var(--color3);
     cursor: pointer;
     transition: all .5s;
@@ -150,7 +150,6 @@ a .btn {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    padding: 5rem;
 }
 
 .hero .socials ul li a {
