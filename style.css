@@ -38,6 +38,12 @@ html {
     border-radius: 1px;
 }
 
+.btn1 {border-radius: 2px;}
+.btn2 {border-radius: 4px;}
+.btn3 {border-radius: 8px;}
+.btn4 {border-radius: 12px;}
+.btn5 {border-radius: 50%;}
+
 .btn:hover {
     background: var(--color2);
     color: var(--color3);
