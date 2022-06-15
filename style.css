@@ -81,7 +81,6 @@ a .btn {
 
 .hero .heroD {
     background: var(--color1);
-    padding: 1.5rem;
     display: flex;
 }
 
@@ -90,6 +89,7 @@ a .btn {
     height: auto;
     height: fit-content;
     margin: auto;
+    padding: 1.5rem;
     /*filter: blur(4px);*/
 }
 
