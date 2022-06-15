@@ -1,322 +1,344 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --color1: #000000;
-    --color2: #ffffff;
-    --color3: #0f85cc;
-    --color4: #1E2124;
-    --color5: #707070;
+  --color1: #000000;
+  --color2: #ffffff;
+  --color3: #0f85cc;
+  --color4: #1e2124;
+  --color5: #707070;
 }
 
 body {
-    font-family: 'Space Grotesk', sans-serif;
-    overflow-x: hidden;
+  font-family: "Space Grotesk", sans-serif;
+  overflow-x: hidden;
 }
 
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .container {
-    width: 100%;
-    max-width: 1240px;
-    margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .btn {
-    border: 0;
-    padding: 1rem 2rem;
-    background: var(--color3);
-    cursor: pointer;
-    transition: all .5s;
-    border-radius: 8px;
+  border: 0;
+  padding: 1rem 2rem;
+  background: var(--color3);
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 8px;
 }
 
-.btn1 {border-radius: 2px;}
-.btn2 {border-radius: 4px;}
-.btn3 {border-radius: 8px;}
-.btn4 {border-radius: 12px;}
-.btn5 {border-radius: 50%;}
+.btn1 {
+  border-radius: 2px;
+}
+.btn2 {
+  border-radius: 4px;
+}
+.btn3 {
+  border-radius: 8px;
+}
+.btn4 {
+  border-radius: 12px;
+}
+.btn5 {
+  border-radius: 50%;
+}
 
 .btn:hover {
-    background: var(--color2);
-    color: var(--color3);
+  background: var(--color2);
+  color: var(--color3);
 }
 
 a .btn {
-    color: var(--color2);
+  color: var(--color2);
 }
 
 .red {
-    color: var(--color3);
+  color: var(--color3);
 }
 
 .loading {
-    width: 100%;
-    height: 100vh;
-    background: var(--color1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
+  width: 100%;
+  height: 100vh;
+  background: var(--color1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
 }
 
 /* Accueil */
 .hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-.hero .heroD, .hero .heroG {
-    width: 50%;
-    height: 100%;
+.hero .heroD,
+.hero .heroG {
+  width: 50%;
+  height: 100%;
 }
 
 .hero .heroD {
-    background: var(--color1);
-    display: flex;
+  background: var(--color1);
+  display: flex;
+  justify-content: center;
 }
 
 .hero .heroD .heroD__img {
-    width: 100%;
-    height: auto;
-    height: fit-content;
-    padding: 1.5rem;
-    margin-top: 3rem;
+  height: auto;
+  height: 90%;
+  margin-top: 4rem;
 }
 
 .hero .heroG {
-    background: var(--color1);
-    color: var(--color2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: var(--color1);
+  color: var(--color2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero .heroG div {
-    width: 80%;
+  width: 80%;
 }
 
 .hero .heroG div h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .hero .heroG div p {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    line-height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
 }
 
 .hero .logo {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    color: var(--color2);
-    font-size: 2rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: var(--color2);
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 
 .hero .logo .logo__img {
-    width: 380px;
-    margin-right: 20px;
+  width: 380px;
+  margin-right: 20px;
 }
 
 .hero .socials {
-    position: absolute;
-    top: 1rem;
-    right: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
 }
 
 .hero .socials ul {
-    list-style: none;
-    font-size: 1.5rem;
+  list-style: none;
+  font-size: 1.5rem;
 }
 
 .hero .socials ul li {
-    margin-left: 1rem;
-    /*background: var(--color1);*/
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+  margin-left: 1rem;
+  /*background: var(--color1);*/
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .hero .socials ul li a {
-    color: var(--color3);
-    transition: color .5s;
+  color: var(--color3);
+  transition: color 0.5s;
 }
 
 .hero .socials ul li a:hover {
-    color: var(--color2);
+  color: var(--color2);
 }
 
 .hero .socials ul {
-    display: flex;
+  display: flex;
 }
 
 /* Gitbook */
 .gitbook {
-    background: var(--color2);
-    padding: 4rem 0;
-    text-align: left;
+  background: var(--color2);
+  padding: 4rem 0;
+  text-align: center;
 }
 
 .gitbook h2 {
-    margin-bottom: 1rem;
-    font-size: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 /* RoadMap */
 .roadmap {
-    background: var(--color1);
-    padding: 4rem 0;
-    color: var(--color2);
+  background: var(--color1);
+  padding: 4rem 0;
+  color: var(--color2);
 }
 
 .roadmap h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .roadmap .bloc {
-    background: var(--color4);
-    margin-bottom: 3rem;
-    padding: 1rem;
-    position: relative;
-    margin-left: 2px;
+  background: var(--color4);
+  margin-bottom: 3rem;
+  padding: 1rem;
+  position: relative;
+  margin-left: 2px;
 }
 
 .roadmap h4 {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .roadmap p {
-    line-height: 1.5rem;
+  line-height: 1.5rem;
 }
 
 .roadmap .number {
-    position: absolute;
-    top: -1rem;
-    left: calc(1rem - 1px);
-    background: var(--color3);
-    padding: 1rem;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: -1rem;
+  left: calc(1rem - 1px);
+  background: var(--color3);
+  padding: 1rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .roadmap .number.off {
-    background: var(--color2);
-    color: var(--color3);
+  background: var(--color2);
+  color: var(--color3);
 }
 
 .roadmap .container {
-    position: relative;
-    width: 80%;
+  position: relative;
+  width: 80%;
 }
 
 .line {
-    position: absolute;
-    left: 3rem;
-    height: 100%;
-    width: 2px;
-    background: var(--color3);
-    top: 30px;
+  position: absolute;
+  left: 3rem;
+  height: 100%;
+  width: 2px;
+  background: var(--color3);
+  top: 30px;
 }
 
 /* Team */
 .team {
-    padding: 4rem 0;
+  padding: 4rem 0;
 }
 
 .team h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .team .team__flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .team .member {
-    width: 31%;
+  width: 31%;
 }
 
 .team .member img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .team .member h4 {
-    margin-bottom: 1rem;
-    text-align: center;
-    font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .team .member .job {
-    color: var(--color5);
-    font-size: 1rem;
-    font-weight: 300;
-    text-transform: uppercase;
+  color: var(--color5);
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .team__flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Responsive */
-@media all and (max-width: 767px) {
-    .hero .logo .logo__img {
-        width: 180px;
-    }
+@media all and (max-width: 1000px) {
+  .hero .heroD {
+    display: none;
+  }
 
-    .hero .heroD {
-        display: none;
-    }
+  .hero .heroD,
+  .hero .heroG {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (max-width: 550px) {
+  .hero .logo .logo__img {
+    width: 180px;
+  }
 
-    .hero .heroD, .hero .heroG {
-        width: 100%;
-        height: 100%;
-    }
+  .hero .heroD {
+    display: none;
+  }
 
-    .hero .heroG div h1 {
-        font-size: 2rem;
-    }
+  .hero .heroD,
+  .hero .heroG {
+    width: 100%;
+    height: 100%;
+  }
 
-    .team__flex {
-        flex-direction: column;
-    }
+  .hero .heroG div h1 {
+    font-size: 2rem;
+  }
 
-    .team__flex .member {
-        margin-bottom: 3rem;
-    }
+  .team__flex {
+    flex-direction: column;
+  }
 
-    .team__flex .member:last-child {
-        margin-bottom: 0;
-    }
+  .team__flex .member {
+    margin-bottom: 3rem;
+  }
 
-    .team .member {
-        width: 100%;
-    }
+  .team__flex .member:last-child {
+    margin-bottom: 0;
+  }
+
+  .team .member {
+    width: 100%;
+  }
 }
