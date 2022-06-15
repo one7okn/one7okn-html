@@ -83,7 +83,7 @@ a .btn {
     height: auto;
     height: fit-content;
     margin: auto;
-    filter: blur(4px);
+    /*filter: blur(4px);*/
 }
 
 .hero .heroG {
