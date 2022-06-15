@@ -82,6 +82,7 @@ a .btn {
 .hero .heroD {
     background: var(--color1);
     display: flex;
+    margin-top: 5rem
     margin-right: 2rem;
 }
 
