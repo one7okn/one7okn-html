@@ -81,15 +81,15 @@ a .btn {
 
 .hero .heroD {
     background: var(--color1);
+    margin-right: 2rem;
     display: flex;
+    
 }
 
 .hero .heroD .heroD__img {
     width: 100%;
     height: auto;
     height: fit-content;
-    margin-top: 5rem;
-    margin-right: 2rem;
     /*margin: auto;
     filter: blur(4px);*/
 }
