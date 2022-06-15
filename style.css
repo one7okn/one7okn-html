@@ -169,7 +169,7 @@ a .btn {
 .gitbook {
     background: var(--color2);
     padding: 4rem 0;
-    text-align: center;
+    text-align: left;
 }
 
 .gitbook h2 {
