@@ -36,7 +36,6 @@ html {
   cursor: pointer;
   transition: all 0.5s;
   border-radius: 8px;
-  display: flex;
 }
 
 .btn1 {
