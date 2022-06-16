@@ -297,17 +297,6 @@ a .btn {
 
 /* Responsive */
 @media all and (max-width: 1000px) {
-  .hero .heroD {
-    display: none;
-  }
-
-  .hero .heroD,
-  .hero .heroG {
-    width: 100%;
-    height: 100%;
-  }
-}
-@media all and (max-width: 550px) {
   .hero .logo .logo__img {
     width: 180px;
   }
@@ -320,6 +309,10 @@ a .btn {
   .hero .heroG {
     width: 100%;
     height: 100%;
+    background-image: url("./img/nft-pic-transparent.png");
+    background-repeat: no-repeat;
+    background-position-y: 30rem;
+    background-size: 100%;
   }
 
   .hero .heroG div h1 {
