@@ -297,12 +297,7 @@ a .btn {
   justify-content: space-between;
 }
 
-/* Responsive */
-@media all and (max-width: 1000px) {
-  .hero .logo .logo__img {
-    width: 180px;
-  }
-
+@media all and (max-width: 1200px) {
   .hero .heroD {
     display: none;
   }
@@ -315,6 +310,13 @@ a .btn {
     background-repeat: no-repeat;
     background-position-y: 40rem;
     background-size: 100%;
+  }
+}
+
+/* Responsive */
+@media all and (max-width: 1000px) {
+  .hero .logo .logo__img {
+    width: 180px;
   }
 
   .hero .heroG div h1 {
