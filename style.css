@@ -253,6 +253,7 @@ a .btn {
 
 /* Team */
 .team {
+  background: var(--color1);
   padding: 3rem 0;
 }
 
@@ -285,7 +286,7 @@ a .btn {
 }
 
 .team .member .job {
-  color: var(--color4);
+  color: var(--color5);
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
